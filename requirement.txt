@@ -5,4 +5,4 @@ scikit-learn
 tensorboard
 matplotlib
 streamlit
-joblib
+joblib --upgrade
