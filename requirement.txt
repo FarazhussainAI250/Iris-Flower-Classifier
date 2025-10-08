@@ -1,8 +1,5 @@
-tensorflow==2.13.0
+streamlit
 pandas
 numpy
 scikit-learn
-tensorboard
-matplotlib
-streamlit
-joblib --upgrade
+joblib==1.3.2
