@@ -1,10 +1,10 @@
 # app.py
 import streamlit as st
-import joblib
+import pickle
 import numpy as np
 
 # Load trained model
-model = joblib.load('iris_model.pkl')
+model = pickle.load(open('iris_model.pkl', 'rb'))
 
 # ----------- Custom CSS with Header & Footer ------------
 st.markdown("""
